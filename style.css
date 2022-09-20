@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Work Sans";
+}
+h3 {
+  color: white;
+}
+body {
+  padding: 16px;
+  background-color: #161717;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+}
+.google-btn {
+  display: flex;
+  background-color: #1a73e8;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  padding-left: 5px;
+  align-items: center;
+}
+
+.google-btn picture {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 70%;
+}
+
+.google-btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.google-btn span {
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.twitter-btn {
+  width: 40px;
+  border: none;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-btn:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.twitter-btn picture img {
+  width: 40%;
+}
+
+.separator {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  align-items: center;
+}
+.separator hr {
+  height: 1px;
+  flex-grow: 1;
+  background-color: #ccc;
+  border: none;
+}
+
+.separator span {
+  color: #8b8b8b;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-inputs {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+
+label span {
+  font-weight: 700;
+}
+
+label input {
+  background-color: #212121;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+  padding: 10px 20px;
+}
+
+input:hover,
+input:focus {
+  background-color: white;
+  box-shadow: 0 0 4px rgb(248, 62, 177);
+}
+
+/* label input:focus {
+    background-color: white;
+    box-shadow: 0 0 4px rgb(248, 62, 177);
+} */
+
+.conditions {
+  display: flex;
+  flex-direction: row;
+}
+.submit-btn {
+    height: 40px;
+    width: 100%;
+    background-color: #fc5e9a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.submit-btn:hover{
+    background-color: #B33A69;
+    cursor: pointer;
+}
